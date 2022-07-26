@@ -1,0 +1,373 @@
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+.py-4{
+  min-height: 100%;
+  height: fit-content;
+  background-repeat: initial;
+  background-size: cover;
+}
+.menu{
+  font-size: 16px;
+  margin-left: 80px;
+}
+.skill-craft{
+max-width: 150px;
+}
+.input_field{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+form.example input[type=text] {
+padding: 10px;
+font-size: 17px;
+border: 1px solid grey;
+float: left;
+width: 80%;
+background: #f1f1f1;
+}
+
+form.example button {
+float: left;
+width: 20%;
+padding: 15px;
+background: #2196F3;
+color: white;
+font-size: 17px;
+border: 1px solid grey;
+border-left: none;
+cursor: pointer;
+}
+
+form.example button:hover {
+background: #0b7dda;
+}
+
+form.example::after {
+content: "";
+clear: both;
+display: table;
+}
+
+table {
+  margin-left: 400px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: auto;
+}
+td,th {
+  width: 200px;
+  height: 45px;
+  border: none;
+  border-radius: 10%;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.name-field{
+background-color: rgb(209, 241, 193);
+}
+.list{ 
+  margin-left: 500px;
+  margin-top: 30px;
+  margin-right: 500px;
+  padding-left: 140px;
+  padding-top: 20px;
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: rgb(214, 247, 247);
+}
+.details1{
+  font-weight: bold;
+  margin-right: 2rem;
+}
+.details{
+    padding-left: 10px;
+}
+.btn{
+    padding-left: 50px;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0;
+}
+/*
+input[type=text], select, textarea{
+  width: 350px;
+  height:35px;
+  font-size: 20px;
+  font-family: Inter;
+  padding: 12px;
+  border: 2px solid #707070;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin-top: 20px;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  font-size: 20px;
+  font-family: Inter;
+  width: 120px;
+  height: 50px;
+  background-color: #71B0E0;
+  color: #010101;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #D5CFCF;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  text-align: right;
+  width: 25%;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 25%;
+  margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.button {
+  background-color: #0a0a23; /* Green */
+  border: none;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 16px;
+  border:none; 
+  border-radius:10px;
+  padding:15px;
+  transition-duration: 0.4s;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #4c7faf; /* Green */
+  color: white;
+
+}
+.sendmail{
+  align-items: center;
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+.form-error{
+  background-color: none;
+  padding-top: 20px;
+  color: red;
+  font-size: 20px;
+}
+.home-contents{
+  margin-top: 10px;
+}
+.The_Skill_Crafts_Class {
+  padding-top: 10px;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  width: auto;
+  height: fit-content;
+  color: rgba(0,0,0,1);
+  letter-spacing: -0.99px;
+}
+
+.Certificate_Delivery_System_Class {
+  margin-top: 10px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+  width: auto;
+  height: fit-content;
+	color: rgba(0,0,0,1);
+	letter-spacing: -0.69px;
+}
+
+.An_in-house_web_application__d_Class {
+  margin-top: 10px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -0.48px;
+}
+
+.Powered_by_Class {
+  padding-top: 30px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -0.48px;
+}
+.laravel_Class {
+  padding-top: 10px;
+  padding-left: 20px;
+  max-height: 100px;
+}
+.Verify_a_Certificate_-_Class {
+  padding-left: 300px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -0.48px;
+}
+.Request_Your_Cerificate_-_Class {
+  padding-left: 300px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -0.48px;
+}
+/* verifycode.blade.php */
+.Verify_a_Certificate_m_Class {
+  margin-top:30px;
+	margin-left: 250px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 85px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -5px;
+}
+.Enter_the_Unique_Key_in_Certif_Class {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+  height: 35px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -0.69px;
+}
+
+.hcaptcha_Class {
+  margin-top: 70px;
+  margin-left: 350px;
+	width: 300px;
+	height: 80px;
+	overflow: visible;
+}
+
+/* notexist.blade.php */
+
+.Oops__Class {
+  margin-top: 50px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -0.99px;
+}
+
+.Certificate_Doesnt_Exist_Class {
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 60px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -4px;
+}
+
+.Either_the_certificate_doesnt__Class {
+  margin-top: 20px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -2px;
+}
+
+.Try_Again_-_Class {
+  margin-top: 20px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -1px;
+}
+/* Admin */
+.Student_Name_Class {
+  width: 200px;
+  height: 50px;
+  padding: 12px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	color: rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: #C4C4C4;
+}
+.count_box_requests{
+  background-color: white;
+  font-family: Inter;
+  width:300px;
+  height:150px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px lightgrey;
+}
